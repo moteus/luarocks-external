@@ -1,5 +1,5 @@
 
-All modules buld with MSVC 2010 and linked against `msvcr10.dll`.
+All modules buld with MSVC 2010 and linked against `msvcr100.dll`.
 But because it dynamic libraries you can use it for install rocks
 with different runtime. Excaption is only for static libraries.
 E.g. You can not buld `alien` rocks with different runtime because
@@ -43,8 +43,6 @@ lua-curl
    scm-0 (installed) - c:/Lua/5.1/systree/lib/luarocks/rocks
 lua-iconv
    7-1 (installed) - c:/Lua/5.1/systree/lib/luarocks/rocks
-lua-llthreads2-compat
-   0.1.3-1 (installed) - c:/Lua/5.1/systree/lib/luarocks/rocks
 luaexpat
    1.3.0-1 (installed) - c:/Lua/5.1/systree/lib/luarocks/rocks
 luuid
